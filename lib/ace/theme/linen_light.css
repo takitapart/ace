@@ -231,7 +231,7 @@
 }
 
 .ace-linen_light .ace_entity.ace_name.ace_tag {
-  background-color: #1a3a46; /* $color-dark-blue */
+  background-color: #5c5b5c; /* $color-medium-grey */
   border-radius: 0.25rem;
   color: #e6e6e5; /*  $color-light-grey*/
 }
