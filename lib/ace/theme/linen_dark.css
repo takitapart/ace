@@ -9,11 +9,11 @@
 
 .ace-linen_dark .ace_fold-widget {
   text-align: center;
-  color: #777;
+  color: #4386af; /* $color-blue */
 }
 
 .ace-linen_dark .ace_fold-widget:hover {
-  color: #777;
+  color: #4386af; /* $color-blue */
 }
 
 .ace-linen_dark .ace_fold-widget.ace_start,
@@ -47,7 +47,7 @@
 
 .ace-linen_dark {
   color: #e5e5e5;
-  background-color: #1a3a46;
+  background-color: #214959;
 }
 
 .ace-linen_dark .ace_cursor {
@@ -91,22 +91,23 @@
 }
 
 .ace-linen_dark .ace_paren {
-  color: #24C2C7;
+  color: #26ade3; /* $color-bright-blue */
 }
 
 .ace-linen_dark .ace_keyword {
-  color: #cda869;
+  color: #fbc71c; /* $color-yellow */
 }
 
 .ace-linen_dark .ace_keyword.ace_operator {
-  color: #fa8d6a;
+  color: #f98d28; /* $color-orange */
 }
 
 .ace-linen_dark .ace_punctuation.ace_operator {
-  color: #fa8d6a;
+  color: #f98d28; /* $color-orange */
 }
 
 .ace-linen_dark .ace_identifier {
+  
 }
 
 .ace-linen_dark .ace-statement {
@@ -158,7 +159,7 @@
 }
 
 .ace-linen_dark .ace_string {
-  color: #8f9d6a;
+  color: #519548; /* $color-green */
 }
 
 .ace-linen_dark .ace_string.ace_regexp {
@@ -167,7 +168,7 @@
 
 .ace-linen_dark .ace_comment {
   font-style: italic;
-  color: #555;
+  color: #4386af; /* $color-blue */
 }
 
 .ace-linen_dark .ace_comment.ace_doc {
@@ -200,5 +201,5 @@
 }
 
 .ace-linen_dark .ace_indent-guide {
-  border-right: 1px dotted #ddd;
+  border-right: 1px dotted #28596c; /* $color-blue */
 }

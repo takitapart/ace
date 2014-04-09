@@ -1,0 +1,12 @@
+# done,cancelled,now,urgent,today,soon,later,followup
+
+Example Project:
+    - Start example project file @computer @done
+    - Brainstorm project with colleagues @now
+    - Email Joan about project @today
+    Sub Project:
+        - Sub task @later
+
+Next Project:
+    - Draft ideas for next project @urgent @today
+    - Email Bob to arrange meeting @followup

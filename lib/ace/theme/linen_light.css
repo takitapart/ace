@@ -64,7 +64,7 @@
 }
  
 .ace-linen_light .ace_marker-layer .ace_selection {
-  background: #fbc71c; /* $color-yellow */
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .ace-linen_light .ace_marker-layer .ace_selected-word {
@@ -211,4 +211,27 @@
 
 .ace-linen_light .ace_indent-guide {
   border-right: 1px dotted #ddd;
+}
+
+/* Taskpaper */
+
+.ace-linen_light .ace_entity.ace_project {
+  font-weight: bold;
+}
+
+.ace-linen_light .ace_entity.ace_task.ace_done {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.ace-linen_light .ace_entity.ace_note {
+  color: #666;
+  font-style: italic;
+  /* background-color: #fbc71c; /* $color-yellow */
+}
+
+.ace-linen_light .ace_entity.ace_name.ace_tag {
+  background-color: #1a3a46; /* $color-dark-blue */
+  border-radius: 0.25rem;
+  color: #e6e6e5; /*  $color-light-grey*/
 }
