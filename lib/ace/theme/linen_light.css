@@ -47,7 +47,7 @@
 
 .ace-linen_light {
   color: #1a3a46; /* $color-dark-blue */
-  background-color: transparent;
+  background-color: #e6e6e5; /* $color-light-grey */
 }
 
 .ace-linen_light .ace_cursor {
@@ -220,18 +220,22 @@
 }
 
 .ace-linen_light .ace_entity.ace_task.ace_done {
-  color: #999;
+  color: #bbb;
   text-decoration: line-through;
 }
 
 .ace-linen_light .ace_entity.ace_note {
-  color: #666;
+  color: #9f9f9f;
+}
+.ace-linen_light .ace_entity.ace_note.ace_strong {
+  font-weight: bold;
+}
+.ace-linen_light .ace_entity.ace_note.ace_emphasis {
   font-style: italic;
-  /* background-color: #fbc71c; /* $color-yellow */
 }
 
 .ace-linen_light .ace_entity.ace_name.ace_tag {
-  background-color: #c5c5c5; /* $color-grey */
-  border-radius: 0.25rem;
-  color: #353739; /*  $color-dark-grey*/
+  /* background-color: #c5c5c5; /* $color-grey */
+  /* border-radius: 0.25rem; */
+  color: #26ade3; /* $color-bright-blue */
 }

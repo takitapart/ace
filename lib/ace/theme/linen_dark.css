@@ -47,7 +47,7 @@
 
 .ace-linen_dark {
   color: #e5e5e5;
-  background-color: #214959;
+  background-color: #214959; /* lighten($color-dark-blue, %5) */
 }
 
 .ace-linen_dark .ace_cursor {
